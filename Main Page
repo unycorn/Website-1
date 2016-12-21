@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
- <title> New Project </title>
-</head>
-<body>
- <h1>
- This is a project that I am working on in my free time with my friend
- </h1>
-</body>
+ <head>
+  <title> New Project </title>
+ </head>
+ <body>
+  <h1>
+     This is a project that I am working on in my free time with my friend
+  </h1>
+ </body>
 </html>
