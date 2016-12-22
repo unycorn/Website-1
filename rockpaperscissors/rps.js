@@ -10,7 +10,7 @@ function getRandomChoice()
   max = 3;
   return Math.floor(Math.random() * (max - min)) + min;
 }
-function chooseRock(
+function chooseRock()
 {
   cpuChoice = getRandomChoice();
   switch(cpuChoice)
@@ -23,7 +23,7 @@ function chooseRock(
       console.log("Scissors!\nYou won!");
   }
 }
-function choosePaper(
+function choosePaper()
 {
   cpuChoice = getRandomChoice();
   switch(cpuChoice)
@@ -36,7 +36,7 @@ function choosePaper(
       console.log("Scissors!\nYou lost!");
   }
 }
-function chooseScissors(
+function chooseScissors()
 {
   cpuChoice = getRandomChoice();
   switch(cpuChoice)
