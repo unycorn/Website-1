@@ -52,6 +52,6 @@ function chooseScissors(
   }
   if(cpuChoice = 2)
   {
-    console.log(Scissors!\nIt's a tie!)
+    console.log("Scissors!\nIt's a tie!")
   }
 }
