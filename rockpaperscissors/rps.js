@@ -1,6 +1,9 @@
 // 0 -> rock
 // 1 -> paper
 // 2 -> scissors
+
+var cpuChoice;
+
 function getRandomChoice()
 {
   min = 0;
@@ -9,49 +12,39 @@ function getRandomChoice()
 }
 function chooseRock(
 {
-  cpuChoice = getRandomChoice()
-  if(cpuChoice = 0)
+  cpuChoice = getRandomChoice();
+  switch(cpuChoice)
   {
-    console.log("Rock!\nIt's a tie!");
-  }
-  if(cpuChoice = 1)
-  {
-    console.log("Paper!\nYou lost!");
-  }
-  if(cpuChoice = 2)
-  {
-    console.log(Scissors!\nYou won!)
+    case 0:
+      console.log("Rock!\nIt's a tie!");
+    case 1:
+      console.log("Paper!\nYou lost!");
+    case 2:
+      console.log("Scissors!\nYou won!");
   }
 }
 function choosePaper(
 {
-  cpuChoice = getRandomChoice()
-  if(cpuChoice = 0)
+  cpuChoice = getRandomChoice();
+  switch(cpuChoice)
   {
-    console.log("Rock!\nYou won!");
-  }
-  if(cpuChoice = 1)
-  {
-    console.log("Paper!\nIt's a tie!");
-  }
-  if(cpuChoice = 2)
-  {
-    console.log(Scissors!\nYou lost!)
+    case 0:
+      console.log("Rock!\nYou won!!");
+    case 1:
+      console.log("Paper!\nIt's a tie!");
+    case 2:
+      console.log("Scissors!\nYou lost!");
   }
 }
 function chooseScissors(
 {
-  cpuChoice = getRandomChoice()
-  if(cpuChoice = 0)
+  cpuChoice = getRandomChoice();
+  switch(cpuChoice)
   {
-    console.log("Rock!\nYou lost!");
-  }
-  if(cpuChoice = 1)
-  {
-    console.log("Paper!\nYou won!");
-  }
-  if(cpuChoice = 2)
-  {
-    console.log("Scissors!\nIt's a tie!")
-  }
+    case 0:
+      console.log("Rock!\nYou lost!");
+    case 1:
+      console.log("Paper!\nYou won!");
+    case 2:
+      console.log("Scissors!\nIt's a tie!");
 }
