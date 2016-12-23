@@ -13,6 +13,7 @@
 // 2 -> scissors
 
 var cpuChoice;
+var results = document.getElementById("results").innerHTML
 
 function getRandomChoice()
 {
@@ -26,30 +27,29 @@ function chooseRock()
   switch(cpuChoice)
   {
     case 0:
-      console.log("Rock!\nIt's a tie!");
+      results = ("Rock!\nIt's a tie!");
       break;
     case 1:
-      console.log("Paper!\nYou lost!");
+      results = ("Paper!\nYou lost!");
       break;
     case 2:
-      console.log("Scissors!\nYou won!");
+      results = ("Scissors!\nYou won!");
       break;
   }
 }
 function choosePaper()
 {
   cpuChoice = getRandomChoice();
-  console.log(cpuChoice);
   switch(cpuChoice)
   {
     case 0:
-      console.log("Rock!\nYou won!!");
+      results = ("Rock!\nYou won!!");
       break;
     case 1:
-      console.log("Paper!\nIt's a tie!");
+      results = ("Paper!\nIt's a tie!");
       break;
     case 2:
-      console.log("Scissors!\nYou lost!");
+      results = ("Scissors!\nYou lost!");
       break;
   }
 }
@@ -59,17 +59,19 @@ function chooseScissors()
   switch(cpuChoice)
   {
     case 0:
-      console.log("Rock!\nYou lost!");
+      results = ("Rock!\nYou lost!");
       break;
     case 1:
-      console.log("Paper!\nYou won!");
+      results = ("Paper!\nYou won!");
       break;
     case 2:
-      console.log("Scissors!\nIt's a tie!");
+      results = ("Scissors!\nIt's a tie!");
       break;
   }
 }
 </script>
+
+<p id="results"></p>
 
 <div class="rps_buttons">
   <button id="rock" onclick="chooseRock()"></button>
