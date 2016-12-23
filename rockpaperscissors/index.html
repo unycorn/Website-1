@@ -7,8 +7,6 @@
   Rock Paper Scissors
 </h1>
 
-<p id="results"></p>
-
 <div class="rps_buttons">
   <button id="rock" onclick="chooseRock()"></button>
   <button id="paper" onclick="choosePaper()"></button>
@@ -21,8 +19,10 @@
 // 2 -> scissors
 
 var cpuChoice;
-var results = document.getElementById("results").innerHTML
 
+function setResults(text) {
+  document.getElementById("results").innerHTML = text;
+}
 function getRandomChoice()
 {
   min = 0;
@@ -78,3 +78,5 @@ function chooseScissors()
   }
 }
 </script>
+
+<h2 id="results"></h2>
