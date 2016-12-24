@@ -33,7 +33,7 @@ li a:hover:not(.active) {
 }
 
 .source {
-  color: #ff6666;
+  color: #ffdddd;
   border-radius: 7px;
   padding: 5px;
   transition: background-color 1s, color 1s;
@@ -45,17 +45,17 @@ li a:hover:not(.active) {
 }
 
 h1 {
-  color: #ee3333;
+  color: #eedddd;
   font-size: 50px;
   text-align: center;
   font-family: "Helvetica Neue";
 }
 
 p {
-  color: #ff8888;
+  color: #ffbbbb;
   font-size: 30px;
   text-align: center;
-  font-family: "Helvetica Neue";
+  font-family: sans-serif;
 }
 
 #home_text {
