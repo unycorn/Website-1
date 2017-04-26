@@ -91,6 +91,10 @@ p {
   margin-right: 10%;
 }
 
+#results {
+  text-align: center;
+}
+
 .rps_buttons {
   text-align: center;
 }
